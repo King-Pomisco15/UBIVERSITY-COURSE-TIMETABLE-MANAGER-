@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form id="registerForm">
+    <input type="text" id="full_name" placeholder="Full name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password (min 8 characters)" minlength="8" required>
+    <button type="submit">Register</button>
+  </form>
+  <p id="message"></p>
+  <p>Already have an account? <a href="login.html">Log in</a></p>
+
+  <script src="assets/js/pages/register.js"></script>
+</body>
+</html>
